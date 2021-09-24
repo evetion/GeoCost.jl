@@ -3,11 +3,26 @@ uuid = "3c45aa17-3f1b-4c6d-a0f9-44027fd8781d"
 authors = ["Maarten Pronk <git@evetion.nl> and contributors"]
 version = "0.1.0"
 
+[deps]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
+ImageSegmentation = "80713f31-8817-5129-9cf8-209ff8fb23e1"
+OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+TiledIteration = "06e1c1a7-607b-532d-9fad-de7d9aa2abac"
+WhereTheWaterFlows = "ea906314-1493-4d22-a0af-f886a20c9fba"
+
 [compat]
 julia = "1.6"
 
 [extras]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Test"]
+test = ["Test", "Conda", "PyCall", "BenchmarkTools"]
