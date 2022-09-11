@@ -1,3 +1,6 @@
+# [ARCHIVED] 
+See [Deltares/GeoArrayOps.jl](https://github.com/Deltares/GeoArrayOps.jl/) for its successor.
+
 # GeoCost
 
 [![Build Status](https://github.com/evetion/GeoCost.jl/workflows/CI/badge.svg)](https://github.com/evetion/GeoCost.jl/actions)
